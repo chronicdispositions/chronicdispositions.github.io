@@ -5,10 +5,27 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1"/>
 		<meta name="theme-color" content="#000000"/>
 		<meta name="description" content="American Gothic."/>
-		<link rel="apple-touch-icon" href="/favicon.ico"/>
+		<link rel="img" href="/favicon.ico"/>
 		<link rel="manifest" href="/manifest.json"/>
 		<title>American Gothic. | chronicdispositions</title>
 		<script defer="defer" src="/static/js/main.fb5e9c04.js"></script>
 		<link href="/static/css/main.3bdc98f3.css" rel="stylesheet">
 			</head>
-	<body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+	<body>
+		<noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div>
+		  <h1>Hello World, it's chronic</h1>
+    	<p>Welcome to American Gothic</p>
+		<script type="text/javascript">
+			today = new Date();
+			BigDay = new Date("September 18, 2022");
+			msPerDay = 24 * 60 * 60 * 1000 ;
+			timeLeft = (BigDay.getTime() - today.getTime());
+			e_daysLeft = timeLeft / msPerDay;
+			daysLeft = Math.floor(e_daysLeft);
+			e_hrsLeft = (e_daysLeft - daysLeft)*24;
+			hrsLeft = Math.floor(e_hrsLeft);
+			minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
+			document.write("There are only<BR> <H4>" + daysLeft + " days " + hrsLeft +" hours and " + minsLeft + " minutes left </H4> Until We Mint<P>");
+		</script>
+	</body>
+</html>
