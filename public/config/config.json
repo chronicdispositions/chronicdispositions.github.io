@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0xD9D6365389C5cA31533f06B2Ae3092dFB09a7d5a",
-  "SCAN_LINK": "https://testnet.bscscan.com/address/0xD9D6365389C5cA31533f06B2Ae3092dFB09a7d5a",
+  "CONTRACT_ADDRESS": "0x4a9d857b3f9f38c9c286f95301940c6683d51ab4",
+  "SCAN_LINK": "https://ftmscan.com/address/0x4a9d857b3f9f38c9c286f95301940c6683d51ab4#code",
   "NETWORK": {
-    "NAME": "Binance Scam Chain Test",
-    "SYMBOL": "BNB",
-    "ID": 97
+    "NAME": "Fantom",
+    "SYMBOL": "FTM",
+    "ID": 250
   },
   "NFT_NAME": "American Gothic",
   "SYMBOL": "AMGOTH",
   "MAX_SUPPLY": 250,
   "WEI_COST": 100000000000000000000,
-  "DISPLAY_COST": 0.1,
+  "DISPLAY_COST": 100,
   "GAS_LIMIT": 100000,
   "MARKETPLACE": "PaintSwap",
-  "MARKETPLACE_LINK": "https://paintswap.finance/marketplace/collections/0xfarts",
+  "MARKETPLACE_LINK": "https://paintswap.finance/marketplace/collections/0x4a9d857b3f9f38c9c286f95301940c6683d51ab4",
   "SHOW_BACKGROUND": true
 }
